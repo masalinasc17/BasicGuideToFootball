@@ -1,0 +1,91 @@
+{
+    "en": {
+        "page.home.title": "Basic Guide to Football",
+
+        "navegation.meaning": "What is football?",
+        "navegation.rules": "Basic Rules",
+        "navegation.equipment": "Basic Equipment",
+        "navegation.pitch": "Football Pitch",
+        "navegation.more": "Learn More",
+        "navegation.contact": "Contact Us",
+
+        "section.meaning": "What is football?",
+        "section.meaning.paragraph1.italic":"Football",
+        "section.meaning.paragraph1":" is the world's most popular sport, played between two teams of eleven players.",
+        "section.meaning.paragraph2.1":"The main objective is to ",
+        "section.meaning.paragraph2.strong":"score goals",
+        "section.meaning.paragraph2.2":" by moving a ball into the opponent's goal, primarily using their feet",
+
+        "section.rules": "Basic Rules",
+        "section.rules.paragraph.1":"If you want to know the rules, please, enter ",
+        "section.rules.paragraph.link":"this link",
+        "section.rules.paragraph.2":" to go to the rule page.",
+
+        "section.equipment": "Basic Equipment",
+        "section.equipment.guards":"Shin guards",
+        "section.equipment.boots":"Boots",
+        "section.equipment.jersey":"Team jersey",
+
+        "section.pitch": "Football Pitch",
+        "section.pitch.image":"A standard football pitch layout.",
+
+        "section.more": "Learn More",
+        "section.more.paragraph.1": "Visit ",
+        "section.more.paragraph.link": "FIFA official website",
+        "section.more.paragraph.2":" to learn more about football",
+
+        "section.contact": "Contact Us",
+        "section.contact.paragraph1": "If you would like to suggest or correct any information, please write ",
+        "section.contact.link": "our contact page",
+        "section.contact.paragraph2": " to contact us.",
+
+        "section.update":"Next web update: ",
+
+        "footer.patent":"2026 Basic Guide to Football. All rights reserved."
+    },
+
+    "es": {
+        "page.home.title": "Guía Básica de Fútbol",
+
+        "navegation.meaning": "¿Qué es el fútbol?",
+        "navegation.rules": "Reglas básicas",
+        "navegation.equipment": "Equipamiento básico",
+        "navegation.pitch": "Campo de fútbol",
+        "navegation.more": "Saber más",
+        "navegation.contact": "Contáctanos",
+
+        "section.meaning": "¿Qué es el fútbol?",
+        "section.meaning.paragraph1.italic":"Fútbol",
+        "section.meaning.paragraph1":" es el deporte más popular del mundo, jugado entre dos equipos de once jugadores.",
+        "section.meaning.paragraph2.1":"El objetivo principal es ",
+        "section.meaning.paragraph2.strong":"anotar goles",
+        "section.meaning.paragraph2.2":" metiendo el balón en la portería del rival, principalmente con los pies",
+
+        "section.rules": "Reglas básicas",
+        "section.rules.paragraph.1":"Si quieres conocer las reglas, entra, por favor ",
+        "section.rules.paragraph.link":"este link",
+        "section.rules.paragraph.2":" para ir a la página de reglas.",
+
+        "section.equipment": "Equipamiento básico",
+        "section.equipment.guards":"Espinilleras",
+        "section.equipment.boots":"Botas",
+        "section.equipment.jersey":"Camiseta del equipo",
+
+        "section.pitch": "Campo de fútbol",
+        "section.pitch.image":"La disposición estándar de un campo de fútbol.",
+
+        "section.more": "Saber más",
+        "section.more.paragraph.1":"Visita la ",
+        "section.more.paragraph.link":"página oficial de la FIFA",
+        "section.more.paragraph.2":" para saber más sobre el fútbol",
+
+        "section.contact": "Contáctanos",
+        "section.contact.paragraph1": "Si desea sugerir o corregir alguna información, por favor, escríbanos ",
+        "section.contact.link": "nuestra página de contacto",
+        "section.contact.paragraph2": " para ponerse en contacto con nosotros.",
+
+        "section.update":"Próxima actualización de la web: ",
+
+        "footer.patent":"2026 Basic Guide to Football. Todos los derechos reservados."
+    }
+}

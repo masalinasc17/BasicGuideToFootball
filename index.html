@@ -1,0 +1,85 @@
+<!DOCTYPE html> <!--ReqH1-->
+<html lang="en-GB"> <!--ReqH1-->
+<head> <!--ReqH2-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Guide to Football</title>
+    <meta name="author" content="Alessio Salinas Castro">
+    <meta name="description" content="Basic Guide To Football main page">
+    <meta name="keywords" content="football, guide, football rules, ball">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="./js/i18n/i18n.js" defer></script>
+    <!--<link rel="stylesheet" href="css/single-page.css">-->
+</head>
+<body>
+    <header class="header-bar"> <!--ReqH3-->
+        <h1 data-i18n="page.home.title">Basic Guide to Football</h1> <!--ReqH5-->
+        <select class="language-switcher" onchange="switchLanguage(this.value)">
+            <option class="language-switcher" value="en">English</option>
+            <option class="language-switcher" value="es">Español</option>
+        </select>
+    </header>
+    <main> <!--ReqH3-->
+        <nav> <!--ReqH3-->
+            <ul> <!--ReqH8-->
+                <li><a href="#information" data-i18n="navegation.meaning">What is football?</a></li>
+                <li><a href="#rules" data-i18n="navegation.rules">Basic Rules</a></li>
+                <li><a href="#equipment" data-i18n="navegation.equipment">Basic Equipment</a></li>
+                <li><a href="#pitch" data-i18n="navegation.pitch">Football Pitch</a></li>
+                <li><a href="#learnMore" data-i18n="navegation.more">Learn More</a></li>
+                <li><a href="#contact" data-i18n="navegation.contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <section id="information"> <!--ReqH4-->
+            <h2 data-i18n="section.meaning">What is football?</h2> <!--ReqH5-->
+            <p> <!--ReqH4-->
+                <dfn data-i18n="section.meaning.paragraph1.italic">Football</dfn><span data-i18n="section.meaning.paragraph1"> is the world's most popular sport, played between two teams of eleven players.</span> <!--ReqH7-->
+            </p>
+            <p> <!--ReqH4-->
+                <span data-i18n="section.meaning.paragraph2.1">The main objective is to </span><strong data-i18n="section.meaning.paragraph2.strong">score goals</strong><span data-i18n="section.meaning.paragraph2.2"> by moving a ball into the opponent's goal, primarily using their feet</span> <!--ReqH6-->
+            </p>
+        </section>
+        <section id="rules"> <!--ReqH4-->
+            <h2 data-i18n="section.rules">Basic Rules</h2> <!--ReqH5-->
+            <p> <!--ReqH4-->
+                <span data-i18n="section.rules.paragraph.1">If you want to know the rules, please, enter </span><a href="./pages/rules.html" target="_self" data-i18n="section.rules.paragraph.link">this link</a><span data-i18n="section.rules.paragraph.2"> to go to the rule page.</span> <!--ReqH11-->
+            </p>
+        </section>
+        <section id="equipment"> <!--ReqH4-->
+            <h2 data-i18n="section.equipment">Basic Equipment</h2> <!--ReqH5-->
+            <ul> <!--ReqH14-->
+                <li data-i18n="section.equipment.guards">Shin guards</li>
+                <li data-i18n="section.equipment.boots">Boots</li>
+                <li data-i18n="section.equipment.jersey">Team jersey</li>
+            </ul>
+        </section>
+        <section id="pitch"> <!--ReqH4-->
+            <h2 data-i18n="section.pitch">Football Pitch</h2> <!--ReqH5-->
+            <figure> <!--ReqH12-->
+                <img src="./resources/images/football-pitch.png" alt="Football Pitch" title="Football Pitch" width="500" height="300">
+                <figcaption data-i18n="section.pitch.image">A standard football pitch layout.</figcaption> <!--ReqH13-->
+            </figure>
+        </section> <!--ReqH4-->
+        <section id="learnMore">
+            <h2 data-i18n="section.more">Learn More</h2> <!--ReqH5-->
+            <p>
+                <sapn data-i18n="section.more.paragraph.1">Visit </sapn><a href="https://www.fifa.com" target="_blank" data-i18n="section.more.paragraph.link">FIFA official website</a><span data-i18n="section.more.paragraph.2"> to learn more about football.</span><!--ReqH9-->
+            </p>
+        </section>
+        <section id="contact"> <!--ReqH4-->
+            <h2 data-i18n="section.contact">Contact Us</h2> <!--ReqH5-->
+            <p> <!--ReqH4-->
+               <span data-i18n="section.contact.paragraph1">If you would like to suggest or correct any information, please write </span><a href="./pages/contact.html" target="_self" data-i18n="section.contact.link"><span data-i18n="section.contact.paragraph2">our contact page</a> to contact us.</span> <!--ReqH11-->
+            </p>
+        </section>
+        <section>
+                <p data-i18n="section.update">Next web update: </p><span id="event-date" data-date="2026-07-15"></span>
+        </section>
+    </main>
+    <footer> <!--ReqH3-->
+        <a href="index.html" target="_self">
+            <img src="./resources/images/logo.png" alt="Basic Guide to Football logo" title="Basic Guide to Football" width="100" height="100"> <!--ReqH10-->
+        </a><p>&copy; <span data-i18n="footer.patent">2026 Basic Guide to Football. All rights reserved.</span></p>
+    </footer>
+</body>
+</html>
