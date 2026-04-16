@@ -40,21 +40,41 @@ function switchLanguage(locale) {
     localStorage.setItem('preferredLanguage', locale);
 }
 
+(function initI18n() {
+    const i18nSelectors = [
+        '[data-i18n]',
+        '[data-i18n-alt]',
+        '[data-i18n-title]',
+        '[data-date]',
+        '[data-price]',
+        '#language-switcher'
+    ].join(',');
+
+    if (!document.querySelector(i18nSelectors)) {
+        console.debug('i18n: no translatable elements or language control found — initialization skipped.');
+        return;
+    }   
+
+    //rest of the code runs only if at least one i18n-related element is detected
+    console.debug('i18n: translatable elements or language control detected — initializing.');
+
 // Load translation file
-fetch('/js/i18n/translations.json')
+fetch(new URL('js/i18n/translations.json', document.baseURI))
     .then(response => response.json())
     .then(data => {
+
         translations = data;
+
         // Retrieve saved language or default to English
         const savedLanguage =
-        localStorage.getItem('preferredLanguage') || 'en';
+            localStorage.getItem('preferredLanguage') || 'en';
+
         switchLanguage(savedLanguage);
     })
     .catch(error => {
         console.error('Failed to load translations:', error);
     });
-
-//switchLanguage('es'); // Default to Spanish on initial load
+    })(); // self-invoking function to run immediately on script load
 
 function createDateFormatter(locale) {
     // Map application locale to regional formatting rules
