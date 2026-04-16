@@ -60,16 +60,23 @@ function switchLanguage(locale) {
 
 // Load translation file
 fetch(new URL('js/i18n/translations.json', document.baseURI))
-    .then(response => response.json())
-    .then(data => {
-
-        translations = data;
-
-        // Retrieve saved language or default to English
-        const savedLanguage =
-            localStorage.getItem('preferredLanguage') || 'en';
-
-        switchLanguage(savedLanguage);
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error: ${response.status}`);
+        }
+        return response.text(); // temporarily inspect
+    })
+    .then(text => {
+        try {
+            const data = JSON.parse(text);
+            translations = data;
+            const savedLanguage =
+                localStorage.getItem('preferredLanguage') || 'en';
+            switchLanguage(savedLanguage);
+        } catch (e) {
+            console.error('Response is not valid JSON:', text);
+            throw e;
+        }
     })
     .catch(error => {
         console.error('Failed to load translations:', error);
