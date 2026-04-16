@@ -59,7 +59,7 @@ function switchLanguage(locale) {
     console.debug('i18n: translatable elements or language control detected — initializing.');
 
 // Load translation file
-fetch(new URL('js/i18n/translations.json', document.baseURI))
+fetch(new URL('./js/i18n/translations.json', document.baseURI))
     .then(response => {
         if (!response.ok) {
             throw new Error(`HTTP error: ${response.status}`);
