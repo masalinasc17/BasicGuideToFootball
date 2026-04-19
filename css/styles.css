@@ -1,13 +1,22 @@
 body {
     font-size: 1rem; /* ReqC2 */
     font-family: Arial, Helvetica, sans-serif; /* ReqC1 */
-    background-color: rgb(26, 26, 26); /* ReqC4 */
-    color: gold; /* ReqC4 */
+    background-color: #0B1F14; /* ReqC4 */
+    color: #CFE8D6; /* ReqC4 */
     margin: 0;
     padding: 0;
 }
 
+a:link {
+    color: #22C55E;
+}
+
+a:visited {
+    color: #A78BFA;
+}
+
 h1 { /* ReqC3 */
+    color: #F1F5F9;
     font-size: 2rem;
     font-weight: bold;
     margin: 1.5rem 0 1rem;
@@ -15,6 +24,7 @@ h1 { /* ReqC3 */
 }
 
 h2 { /* ReqC3 */
+    color: #F1F5F9;
     font-size: 1.75rem;
     margin: 1.5rem 0 1rem;
     padding: 1rem;
@@ -34,10 +44,9 @@ main { /* ReqC4 */
 
 .language-switcher {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 17px;
-    width: 100px;
-    height: 33px;
-    margin-right: 77px;
+    font-size: 1.05em;
+    width: 6em;
+    height: 2em;
     display: inline-block;
     background-color: gold;
     font-weight: bold;
