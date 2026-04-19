@@ -14,10 +14,12 @@
 <body>
     <header class="header-bar"> <!--ReqH3-->
         <h1 data-i18n="page.home.title">Basic Guide to Football</h1> <!--ReqH5-->
-        <select class="language-switcher" onchange="switchLanguage(this.value)">
-            <option class="language-switcher" value="en">English</option>
-            <option class="language-switcher" value="es">Español</option>
-        </select>
+        <span id="language">Language: 
+            <select class="language-switcher" onchange="switchLanguage(this.value)">
+                <option class="language-switcher" value="en">English</option>
+                <option class="language-switcher" value="es">Español</option>
+            </select>
+        </span>
     </header>
     <main> <!--ReqH3-->
         <nav> <!--ReqH3-->
@@ -69,7 +71,7 @@
         <section id="contact"> <!--ReqH4-->
             <h2 data-i18n="section.contact">Contact Us</h2> <!--ReqH5-->
             <p> <!--ReqH4-->
-               <span data-i18n="section.contact.paragraph1">If you would like to suggest or correct any information, please write </span><a href="./pages/contact.html" target="_self" data-i18n="section.contact.link"><span data-i18n="section.contact.paragraph2">our contact page</a> to contact us.</span> <!--ReqH11-->
+               <span data-i18n="section.contact.paragraph1">If you would like to suggest or correct any information, please write </span><a href="./pages/contact.html" target="_self" data-i18n="section.contact.link">our contact page</a><span data-i18n="section.contact.paragraph2"> to contact us.</span> <!--ReqH11-->
             </p>
         </section>
         <section>

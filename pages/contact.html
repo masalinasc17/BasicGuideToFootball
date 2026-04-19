@@ -16,7 +16,8 @@
         <h1>Contact Us</h1> <!--ReqH5-->
     </header>
     <main class="responsive">
-        <section>
+        <section id="form">
+            <span>
             <h2>Contact form</h2> <!--ReqH5-->
             <form action="mailto:info@bookclub.com?subject=Contact%20Form" method="post" novalidate onsubmit="return validateForm()" onkeydown="handleKeydown(event)"> <!--ReqH16--> 
                 <fieldset> <!--ReqH20-->
@@ -73,14 +74,14 @@
                 <button type="submit" class="btn" id="submit-btn">Send</button> <!--ReqH18-->
                 <button type="reset" class="btn">Clear form </button> <!--ReqH18-->
             </form>
-        </section>
-
-        <!--Preview container-->
-        <section id="preview">
-            <h2>Live preview</h2>
-            <div id="preview-content">
-                <p>Form preview will appear here.</p>
-            </div>
+            </span>
+            <!--Preview container-->
+            <section id="preview">
+                <h2>Live preview</h2>
+                <div id="preview-content">
+                    <p>Form preview will appear here.</p>
+                </div>
+            </section>
         </section>
 
     </main>

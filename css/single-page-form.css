@@ -33,15 +33,15 @@ fieldset {
     padding: 0.6em 1em;
     margin-right: 0.5em;
     border: none;
-    background-color: steelblue;
-    color: white;
+    background-color: #22C55E;
+    color: #0B1F14;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .btn:hover { /* ReqC19 */
-    background-color: white;
-    color: steelblue;
+    background-color: #0B1F14;
+    color: #4ADE80;
 }
 
 .option {
@@ -109,4 +109,11 @@ button.highlight {
 
 input, textarea {
     transition: background-color 0.2s;
+}
+
+#form {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 2em;
 }

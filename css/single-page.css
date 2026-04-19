@@ -12,27 +12,26 @@ section {
 section::first-letter { /* ReqS6 */ 
     font-size: 2.2em;
     font-weight: bold;
-    color: darkgoldenrod;
+    color: #22C55E;
 }
 
 #match { /* ReqS8 */ /* ReqS9 */
     line-height: 1.3;
-    margin: 1em 0;
-    padding: 0.8em;
-    border: 0.5px solid white;
-    background-color: rgb(34, 34, 34);
+    padding-bottom: 3em;
+    border: 2px solid #1F3B2C;
+    background-color: #0F2A1D;
 }
 
 section p { /* ReqS11 */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: steelblue;
+    color: #CFE8D6;
 }
 section > h2 { /* ReqS10 */
-    color: steelblue;
+    color: #CFE8D6;
 }
 
 h2 + p { /* ReqS12 */
-    color: steelblue;
+    color: #CFE8D6;
 }
 
 nav ul {
@@ -52,14 +51,14 @@ nav a { /* ReqS13 */
     text-decoration: none;
     font-family: Arial, sans-serif;
     font-size: 0.9rem;
-    color: white;
-    background-color: steelblue;
+    background-color: #22C55E !important;
+    color: #0B1F14 !important;
     border-radius: 5px;
 }
 
 nav a:hover { /* ReqS14 */
-    background-color: white;
-    color: steelblue;
+    background-color: #0B1F14 !important;
+    color: #4ADE80 !important;
 }
 
 .pos1 { /* ReqS7 */ 
@@ -79,24 +78,27 @@ nav a:hover { /* ReqS14 */
 }
 
 table {
-    border: 1px solid white;
+    border: 1px solid #1F3B2C;
     border-collapse: collapse;
     width: 65vw;
     margin-left: 1.5em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 500px;
 }
 
 th, td { /* ReqC17 */ 
-    border: 1px solid white;
+    background-color: #0B1F14;
+    border: 1.5px solid #1F3B2C;
     padding: 0.6em;
     text-align: left;
 }
 
 thead th {
-    background-color: rgb(88, 88, 88);
+    background-color: #14532D;
+    color: #F1F5F9;
     font-weight: bold;
 }
 
 thead tr:hover th {
-    background-color: gray;
+    background-color: #1E3A8A;
 }
