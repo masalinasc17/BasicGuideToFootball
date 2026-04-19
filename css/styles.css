@@ -50,6 +50,7 @@ main { /* ReqC4 */
     display: inline-block;
     background-color: gold;
     font-weight: bold;
+    margin-right: 1em;
 }
 
 footer:lang(en){
