@@ -13,9 +13,9 @@
 </head>
 <body>
     <header class="header-bar"> <!--ReqH3-->
-        <h1 data-i18n="page.home.title">Basic Guide to Football</h1> <!--ReqH5-->
+        <h1 data-i18n="page.home.title">Basic Guide to Football</h1> <!--ReqH5--> <!--ReqI1-->
         <span id="language">Language: 
-            <select id="language-switcher" onchange="switchLanguage(this.value)">
+            <select id="language-switcher" onchange="switchLanguage(this.value)"> <!--ReqI7-->
                 <option class="language_option" value="en">English</option>
                 <option class="language-option" value="es">Español</option>
             </select>
@@ -33,7 +33,7 @@
             </ul>
         </nav>
         <section id="information"> <!--ReqH4-->
-            <h2 data-i18n="section.meaning">What is football?</h2> <!--ReqH5-->
+            <h2 data-i18n="section.meaning">What is football?</h2> <!--ReqH5--> <!--ReqI1-->
             <p> <!--ReqH4-->
                 <dfn data-i18n="section.meaning.paragraph1.italic">Football</dfn><span data-i18n="section.meaning.paragraph1"> is the world's most popular sport, played between two teams of eleven players.</span> <!--ReqH7-->
             </p>
@@ -52,14 +52,14 @@
             <ul> <!--ReqH14-->
                 <li data-i18n="section.equipment.guards">Shin guards</li>
                 <li data-i18n="section.equipment.boots">Boots</li>
-                <li data-i18n="section.equipment.jersey">Team jersey</li>
+                <li><span data-i18n="section.equipment.jersey1">Team jersey (One can cost between </span><span id="jersey-price" data-price="130.00"></span><span data-i18n="section.equipment.jersey2"> and </span><span id="jersey-price" data-price="150.00"></span><span data-i18n="section.equipment.jersey3"> )</span></li>
             </ul>
         </section>
         <section id="pitch"> <!--ReqH4-->
             <h2 data-i18n="section.pitch">Football Pitch</h2> <!--ReqH5-->
             <figure> <!--ReqH12-->
                 <img src="./resources/images/football-pitch.png" alt="Football Pitch" title="Football Pitch" width="500" height="300">
-                <figcaption data-i18n="section.pitch.image">A standard football pitch layout.</figcaption> <!--ReqH13-->
+                <figcaption><span data-i18n="section.pitch.image1">A </span><span id="pitch-decimal" data-decimal="6438.4"></span><span data-i18n="section.pitch.image2">m² standard football pitch layout.</span></figcaption> <!--ReqH13-->
             </figure>
         </section> <!--ReqH4-->
         <section id="learnMore">

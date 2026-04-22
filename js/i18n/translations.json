@@ -1,5 +1,5 @@
 {
-    "en": {
+    "en": { "comment": "/* ReqI2 */",
         "page.home.title": "Basic Guide to Football",
 
         "navegation.meaning": "What is football?",
@@ -24,10 +24,13 @@
         "section.equipment": "Basic Equipment",
         "section.equipment.guards":"Shin guards",
         "section.equipment.boots":"Boots",
-        "section.equipment.jersey":"Team jersey",
+        "section.equipment.jersey1":"Team jersey (One can cost between ",
+        "section.equipment.jersey2":" and ",
+        "section.equipment.jersey3":")",
 
         "section.pitch": "Football Pitch",
-        "section.pitch.image":"A standard football pitch layout.",
+        "section.pitch.image1":"A ",
+        "section.pitch.image2":"m² standard football pitch layout.",
 
         "section.more": "Learn More",
         "section.more.paragraph.1": "Visit ",
@@ -69,10 +72,14 @@
         "section.equipment": "Equipamiento básico",
         "section.equipment.guards":"Espinilleras",
         "section.equipment.boots":"Botas",
-        "section.equipment.jersey":"Camiseta del equipo",
+        "section.equipment.jersey1":"Camiseta del equipo (Una puede costar entre ",
+        "section.equipment.jersey2":" y ",
+        "section.equipment.jersey3":")",
+
 
         "section.pitch": "Campo de fútbol",
-        "section.pitch.image":"La disposición estándar de un campo de fútbol.",
+        "section.pitch.image1":"Un campo de fútbol estándar de ",
+        "section.pitch.image2":"m².",
 
         "section.more": "Saber más",
         "section.more.paragraph.1":"Visita la ",
